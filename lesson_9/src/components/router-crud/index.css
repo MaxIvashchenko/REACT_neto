@@ -1,0 +1,55 @@
+.App {
+    padding: 50px;
+  }
+  
+  h1 {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 60px;
+  }
+  
+  .note {
+    position: relative;
+    flex-basis: 20%;
+    margin: 0 4% 40px 0;
+    padding: 30px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .delete {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+  
+  .textarea-wrap {
+    display: inline-block;
+    position: relative;
+  }
+  
+  textarea {
+    width: 400px;
+    height: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .add {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }

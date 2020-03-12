@@ -1,0 +1,43 @@
+.App {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.news-top {
+  display: flex;
+  align-items: center;
+}
+
+.inline-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.news-wrapper {
+  display: flex;
+}
+
+input {
+  height: 50px;
+  min-width: 500px;
+}
+
+button {
+  padding: 20px;
+}
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widget {
+  width: 33.33%;
+  margin-bottom: 20px;
+}

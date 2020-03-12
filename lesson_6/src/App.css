@@ -1,0 +1,62 @@
+.App {
+  text-align: left;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+label{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  display: block;
+  margin-top: 15px;
+  border: 1px solid;
+}
+
+button {
+  border: 1px solid;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.watches-wrap{
+  display: inline-block;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  border: 1px ;
+}
+
+.watches {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid;
+  font-size: 20px;
+  text-align: center;
+}
+
+.remove{
+  position: absolute;
+  top: -7px;
+  right: -40px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid;
+  text-align: center;
+  cursor: pointer;
+}
+
+#clock{
+  font-family:Tahoma, sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  color:#0000cc;	
+}

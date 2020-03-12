@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.converter {
+  width: auto 0;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.converter input {
+  width: 200px;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.rgb {
+  width: 204px;
+  margin-top: 5px;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.stepForm {
+background-color: sandybrown;
+  width: auto 0;
+  height: 200px;
+  margin-top: 5px;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+margin-left: 20%;
+margin-top: 30px;
+  text-align: center;
+
+  }
+  th {
+  background: #AFCDE7;
+  color: white;
+  padding: 10px 20px;
+  width: 140px;
+  height: 30px;
+  }
+  th, td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+  width: 140px;
+  height: 30px;
+
+  }
+  td {
+  background: #D8E6F3;
+  }
+  th:first-child, td:first-child {
+  text-align: center;
+  }

@@ -1,0 +1,14 @@
+.danger {
+    color: red;
+    font-size: 56px;
+}
+
+.user_info-avatar {
+    width: 100px
+}
+
+.bord {
+    margin: 20px;
+    border: 3px solid;
+    padding: 30px;
+}
